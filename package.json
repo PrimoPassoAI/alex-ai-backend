@@ -1,0 +1,11 @@
+{
+  "name": "alex-ai-backend",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.18.0",
+    "ai": "^3.0.0"
+  }
+}
