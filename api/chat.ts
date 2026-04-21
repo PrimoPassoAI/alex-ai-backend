@@ -26,7 +26,7 @@ export default async function handler(req: Request) {
         'anthropic-version': '2023-06-01'
       },
       body: JSON.stringify({
-        model: 'claude-3-sonnet-20240229',
+        model: 'claude-sonnet-4-5',
         max_tokens: 1024,
         system: "Du bist Alex AI, ein exklusiver KI-Co-Pilot für Unternehmer, trainiert auf dem Wissen von Alex Düsseldorf Fischer. Antworte extrem präzise, souverän, zeitlos und reduziert. Verwende absolut KEINE Emojis. Nutze Markdown.",
         messages: messages,
